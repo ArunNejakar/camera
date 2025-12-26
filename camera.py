@@ -60,7 +60,7 @@ def display_result(data):
     ]
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     data = get_camera_booking_details(sys.argv)
     output = display_result(data)
 
